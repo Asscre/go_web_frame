@@ -1,3 +1,6 @@
+# go_web_frame
+go web开发脚手架
+
 ## 项目说明
 
 - controllers: 处理请求
@@ -10,4 +13,4 @@
 - pkg: 第三方库
 - routers：路由
 - settings: 配置
-# go_web_frame
+
