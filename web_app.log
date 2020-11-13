@@ -1,3 +1,10 @@
 {"level":"ERROR","time":"2020-11-13T11:37:14.671+0800","caller":"mysql/mysql.go:27","msg":"connect DB failed, err:%v\n","error":"dial tcp 127.0.0.1:13306: connect: connection refused"}
 {"level":"INFO","time":"2020-11-13T11:37:36.400+0800","caller":"web_app/main.go:68","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2020-11-13T11:37:36.901+0800","caller":"web_app/main.go:77","msg":"Server exiting"}
+{"level":"ERROR","time":"2020-11-13T14:13:01.974+0800","caller":"mysql/mysql.go:27","msg":"connect DB failed, err:%v\n","error":"Error 1049: Unknown database 'sql_demo'"}
+{"level":"INFO","time":"2020-11-13T14:13:15.243+0800","caller":"web_app/main.go:68","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-13T14:13:15.744+0800","caller":"web_app/main.go:77","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-13T15:01:16.475+0800","caller":"logger/logger.go:72","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36","errors":"","cost":0.000025964}
+{"level":"INFO","time":"2020-11-13T15:01:16.873+0800","caller":"logger/logger.go:72","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36","errors":"","cost":0.000000602}
+{"level":"INFO","time":"2020-11-13T16:02:25.392+0800","caller":"web_app/main.go:68","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-13T16:02:25.896+0800","caller":"web_app/main.go:77","msg":"Server exiting"}

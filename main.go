@@ -28,17 +28,17 @@ func main() {
 		fmt.Printf("init settins failed, e:%v\n", err)
 	}
 	// 2.初始化日志
-	if err := logger.Init(); err != nil {
+	if err := logger.Init(settings.Conf.LogConfig); err != nil {
 		fmt.Printf("init logger failed, e:%v\n", err)
 	}
 	defer zap.L().Sync()
 	// 3.初始化MySql连接
-	if err := mysql.Init(); err != nil {
+	if err := mysql.Init(settings.Conf.MySQLConfig); err != nil {
 		fmt.Printf("init mysql failed, e:%v\n", err)
 	}
 	defer mysql.Close()
 	// 4.初始化Redis连接
-	if err := redis.Init(); err != nil {
+	if err := redis.Init(settings.Conf.RedisConfig); err != nil {
 		fmt.Printf("init redis failed, e:%v\n", err)
 	}
 	defer redis.Close()

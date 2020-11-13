@@ -47,6 +47,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="1106" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1605252296164">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="1106" y="257" key="#com.intellij.ide.util.MemberChooser/0.25.1680.1025@0.25.1680.1025" timestamp="1605252296164" />
     <state x="866" y="319" key="EditFileWatcherDialog" timestamp="1605168634517">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>

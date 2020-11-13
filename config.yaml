@@ -2,6 +2,7 @@ app:
   name: "web_app"
   mode: "dev"
   port: 8081
+  version: v0.0.2
 log:
   level: "debug"
   filename: "web_app.log"
@@ -10,15 +11,15 @@ log:
   max_backups: 7
 mysql:
   host: "127.0.0.1"
-  port: 13306
+  port: 3306
   user: "root"
-  password: "root1234"
-  dbname: "sql_demo"
+  password: "lj1314jh"
+  dbname: "go_web_demo"
   max_open_conns: 200
   max_idle_conns: 50
 redis:
   host: "127.0.0.1"
-  post: 16379
+  post: 6379
   password: ""
   db: 0
   pool_size: 100
